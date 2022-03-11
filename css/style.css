@@ -95,8 +95,6 @@ nav ul li a:hover {
 
 /* MAIN - CONTENT 1 */
 /* MAIN - CONTENT 2 */
-/* MAIN - CONTENT 3 */
-/* MAIN - CONTENT 4 */
 
 .content-2-img {
   width: 50%;
@@ -121,7 +119,6 @@ nav ul li a:hover {
   padding-right: 125px;
   padding-bottom: 30px;
   line-height: 25px;
-
 }
 
 .content-2-text a {
@@ -131,8 +128,29 @@ color: #000000;
 padding: 10px 20px;
 }
 
+/* MAIN - CONTENT 3 */
 
+.content-3 h1 {
+  font-size: 40px;
+  padding-top: 100px;
+}
 
+.content-3-img-1 .content-3-img-2 {
+  width: calc(100% / 3);
+}
+
+.content-3-img-1 img {
+  width: 33%;
+}
+
+.content-3-img-2 img {
+  width: 33%;
+}
+
+.content-3-img-3 img {
+  width: 33%;
+}
+/* MAIN - CONTENT 4 */
 /* MAIN - CONTENT 5 */
 /* MAIN - CONTENT 6 */
 
