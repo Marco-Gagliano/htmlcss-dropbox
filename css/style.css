@@ -130,26 +130,50 @@ padding: 10px 20px;
 
 /* MAIN - CONTENT 3 */
 
-.content-3 h1 {
-  font-size: 40px;
-  padding-top: 100px;
+
+.debug {
+  background-color: #3280FF;
+  height: 600px;
+
+  border: 1px solid black
 }
 
-.content-3-img-1 .content-3-img-2 {
-  width: calc(100% / 3);
+.content-3 {
+  padding-top: 100px;
+  min-height: 500px;
+}
+
+.content-3 h1 {
+  font-size: 42px;
+}
+
+.content-3 h2 {
+  font-size: 31px;
+  padding-bottom: 20px;
+}
+
+.content-3 p {
+  line-height: 20px;
+  font-size: 20px;
+  padding-right: 21px;
+}
+
+.content-3-img-1, .content-3-img-2, .content-3-img-3{
+  width: 33%;
 }
 
 .content-3-img-1 img {
-  width: 33%;
+  width: 100%;
 }
 
-.content-3-img-2 img {
-  width: 33%;
+.content-3-img-2 img  {
+  width: 100%;
 }
 
 .content-3-img-3 img {
-  width: 33%;
+  width: 100%;
 }
+
 /* MAIN - CONTENT 4 */
 /* MAIN - CONTENT 5 */
 /* MAIN - CONTENT 6 */
