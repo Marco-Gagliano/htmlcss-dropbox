@@ -91,6 +91,47 @@ nav ul li a:hover {
 
 /* JUMBOTRON */
 
+.jumbotron {
+  background-color: #B4D0E7;
+  height: 650px;
+}
+
+.jumbotron h1 {
+  padding-top: 70px;
+  font-size: 70px;
+}
+
+/* JUMBOTRON - IMAGE */
+
+.jumbotron-img {
+  width: 65%;
+  padding-top: 50px;
+}
+
+.jumbotron-img img {
+  width: 100%;
+}
+
+
+/* JUMBOTRON - TEXT */
+
+.jumbotron-text {
+  width: 35%;
+  padding-right: 30px;
+}
+
+.jumbotron p {
+  padding-bottom: 35px;
+  padding-top: 25px;
+  line-height: 22px;
+}
+
+.unsubscribe {
+  font-size: 45px;
+  color: #000000;
+}
+
+
 /* MAIN */
 
 /* MAIN - CONTENT 1 */
@@ -181,6 +222,7 @@ padding: 10px 20px;
 .content-4 {
   padding-top: 100px;
   min-height: 500px;
+  height: 800px;
 }
 
 .content-4 h2 {
@@ -213,8 +255,25 @@ padding: 10px 20px;
 
 
 /* MAIN - CONTENT 5 */
-/* MAIN - CONTENT 6 */
 
+.content-5 h1 {
+  font-size: 42px;
+  line-height: 50px;
+  padding-bottom: 35px;
+}
+
+.content-5 a {
+  font-weight: bold;
+  color: #0061FF;
+}
+
+.content-5 a:hover {
+  color: #3280FF;
+}
+
+
+
+/* MAIN - CONTENT 6 */
 
 .content-6 {
   height: 650px;
@@ -230,7 +289,6 @@ padding: 50px 0;
 .content-6 i {
   float: right;
 }
-
 
 
 /* FOOTER */
