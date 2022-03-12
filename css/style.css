@@ -46,8 +46,6 @@ header {
   z-index: 999;
 }
 
-
-
 .logo img {
   vertical-align: middle;
 
@@ -86,6 +84,19 @@ nav ul li a:hover {
 }
 
 .button:hover {
+  background-color: #3280FF
+}
+
+.button-30days {
+  color: #FFFFFF;
+  background-color: #0061FF;
+  padding: 10px 45px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+.button-30days:hover {
   background-color: #3280FF
 }
 
@@ -135,6 +146,139 @@ nav ul li a:hover {
 /* MAIN */
 
 /* MAIN - CONTENT 1 */
+
+.content-1 {
+  height: 1350px;
+  padding-top: 170px;
+  padding-left: 260px;
+}
+
+.content-1 h1 {
+  font-size: 36px;
+}
+
+.billing {
+  padding-top: 50px;
+}
+
+.billing label {
+  padding-right: 20px;
+}
+
+
+.subscribe-1, .subscribe-2, .subscribe-3{
+  width: 33%;
+  padding-top: 30px;
+  
+
+}
+.subscribe-user {
+  padding-left: 20px;
+  border: 1px solid #D3D3D3;
+  margin-right: 60px;
+  height: 900px;
+}
+
+.subscribe-user h3 {
+  padding-top: 30px;
+}
+
+.user {
+  border: 1px solid #D3D3D3;
+  padding: 10px 0;
+  margin-right: 60px;
+  text-align: center;
+}
+
+.price {
+  padding: 15px 0;
+  font-weight: bold;
+}
+
+.period {
+  color: #778591;
+  font-size: 14px;
+  padding-bottom: 50px;
+}
+
+.available-1 {
+  padding-bottom: 20px;
+}
+
+.available-2 {
+  padding-bottom: 70px;
+}
+
+.buy {
+  padding: 40px 0;
+}
+
+.buy a {
+  color: #0061FF;
+}
+
+.plan {
+  width: 18%;
+}
+
+.plan-user p {
+  padding-bottom: 15px
+}
+
+.plan-user h4 {
+  padding: 30px 0;
+}
+
+.plan-user i {
+  color: #0061FF;
+}
+
+
+
+/* MAIN - CONTENT 1/2 */
+
+.content-1-2 {
+  height: 500px;
+  padding-left: 260px;
+}
+
+.enterprise {
+  width: 94%;
+  border: 1px solid #D3D3D3;
+}
+
+.enterprise h5 {
+  text-align: center;
+  padding: 10px 0;
+  vertical-align: middle;
+}
+
+.enterprise-contact {
+  border: 1px solid #D3D3D3;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+.enterprise-contact {
+  padding-top: 30px;
+}
+
+.button-contact {
+  float: right;
+  color: #FFFFFF;
+  background-color: #0061FF;
+  padding: 10px 45px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+.button-contact:hover {
+  background-color: #3280FF
+}
+
+
+
 /* MAIN - CONTENT 2 */
 
 .content-2-img {
