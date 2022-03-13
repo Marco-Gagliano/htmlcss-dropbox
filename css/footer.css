@@ -1,0 +1,56 @@
+/* FOOTER */
+
+footer {
+  min-height: 550px;
+  height: 550px;
+  padding-top: 90px;
+  background-color: #000000;
+}
+
+
+/* FOOTER - CONTATS */
+
+.submenu li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  padding-bottom: 15px;
+}
+
+.submenu li {
+  padding-bottom: 15px;
+}
+
+.submenu h2 {
+  color: #FFFFFF;
+  padding-bottom: 25px;
+}
+
+.columns {
+  width: calc(100% / 5);
+}
+
+.submenu li a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+
+/* FOOTER - CREDITS */
+
+.footer-line {
+  padding-top: 70px;
+}
+
+.footer-line hr {
+  width: 11%;
+  background-color: #FFFFFF;
+}
+
+.footer-line a {
+  color: #999999;
+  text-decoration: none;
+}
+
+.world-language {
+  padding-top: 40px;
+}
