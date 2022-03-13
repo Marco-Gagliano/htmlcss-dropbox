@@ -466,6 +466,11 @@ footer {
   width: calc(100% / 5);
 }
 
+.submenu li a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 
 /* FOOTER - CREDITS */
 
