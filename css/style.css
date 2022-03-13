@@ -426,11 +426,15 @@ padding: 10px 20px;
 
 
 /* MAIN - CONTENT 5 */
+.content-5 {
+  height: 1250px;
+}
 
 .content-5 h1 {
   font-size: 42px;
   line-height: 50px;
   padding-bottom: 35px;
+
 }
 
 .content-5 a {
@@ -441,6 +445,118 @@ padding: 10px 20px;
 .content-5 a:hover {
   color: #3280FF;
 }
+
+.company-top {
+  padding-top: 50px;
+}
+
+.company img {
+  width: 80%;
+  display: block;
+  margin: 0px auto;
+}
+
+.n1 {
+  background-color: #a2d39b;
+  width: 300px;
+  height: 300px;
+  float: left;
+}
+
+.n2 {
+  background-color: #61082B;
+  width: 300px;
+  height: 300px;
+  float: left;
+}
+
+.n3 {
+  background-color: #B4D0E7;
+  width: 300px;
+  height: 300px;
+  float: right
+}
+
+.n4 {
+  background-color: #D5001F;
+  width: 300px;
+  height: 300px;
+  float: right
+}
+
+.company-text {
+  background-color: #F5F5F5;
+  width: 703px;
+  height: 300px;
+  padding: 40px 40px;
+  float: left;
+}
+
+.company-text img {
+  width: 30%;
+}
+
+.company-text hr {
+  width: 20%;
+  margin: 40px 0;
+}
+
+.n5 {
+  background-color: #0093CE;
+  width: 300px;
+  height: 300px;
+  float: left;
+}
+
+.n6 {
+  background-color: #FF1C1C;
+  width: 300px;
+  height: 300px;
+  float: left;
+}
+
+.n7 {
+  background-color: #FFD830;
+  width: 300px;
+  height: 300px;
+  float: right;
+}
+
+.n8 {
+  background-color: #0093CE;
+  width: 300px;
+  height: 300px;
+  float: right;
+}
+
+.free-trial {
+  background-color: #B4D0E7;
+  height: 300px;
+}
+
+.trial {
+  padding-top: 100px;
+}
+
+.free-trial h1 {
+
+  float: left;
+  color: #61082B;
+}
+
+.free-trial a {
+  float: right;
+}
+
+.content-5 .button-trial {
+    color: #000000;
+    background-color: #ffffff;
+    padding: 10px 40px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
 
 
 /* MAIN - CONTENT 6 */
