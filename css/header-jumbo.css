@@ -9,6 +9,9 @@ header {
   z-index: 999;
 }
 
+
+/* HEADER - MENU */
+
 .menu img {
   vertical-align: middle;
 }
@@ -21,17 +24,18 @@ nav li {
   display: inline-block;
 }
 
-nav li a { 
+nav ul li a { 
   color: rgb(0, 0, 0);
   text-transform: capitalize;
   text-decoration: none;
   padding-right: 30px;
-  ;
 }
 
 nav ul li a:hover {
-  text-decoration: underline;
+  border-bottom: 3px solid #000000;
   font-weight: bold;
+  display: inline-block;
+  
 }
 
 .button {
@@ -46,6 +50,7 @@ nav ul li a:hover {
   background-color: #3280FF
 }
 
+/* BONUS MENU */
 
 /* JUMBOTRON */
 

@@ -1,4 +1,4 @@
-/* MAIN - CONTENT 1 */
+/* CONTENT 1 */
 
 .content-1 {
   height: 1350px;
@@ -9,6 +9,9 @@
   font-size: 36px;
 }
 
+
+/* BILLING */
+
 .billing {
   padding-top: 50px;
 }
@@ -17,6 +20,8 @@
   padding-right: 20px;
 }
 
+
+/* SUBSCRIBE 1 - SUBSCRIBE 2 - SUBSCRIBE 3*/
 .subscribe-1, .subscribe-2, .subscribe-3{
   width: calc(85% / 3);
   padding-top: 30px;
@@ -26,10 +31,16 @@
   margin: 0 69px;
 }
 
-.subscribe-user {
+.subscribe-user-single {
   padding-left: 20px;
   border: 1px solid #D3D3D3;
-  height: 900px;
+  padding-bottom: 170px;
+}
+
+.subscribe-user-team {
+  padding-left: 20px;
+  border: 1px solid #D3D3D3;
+  padding-bottom: 150px;
 }
 
 .center {
@@ -39,14 +50,18 @@
   height: 900px;
 }
 
-.subscribe-user h3 {
-  padding-top: 30px;
-}
-
 .user {
   border: 1px solid #D3D3D3;
   padding: 10px 0;
   text-align: center;
+}
+
+.subscribe-user-single h3 {
+  padding-top: 10px;
+}
+
+.subscribe-user-team h3 {
+  padding-top: 10px;
 }
 
 .price {
@@ -88,10 +103,12 @@
   color: #0061FF;
 }
 
-.subscribe-user hr {
+.subscribe-user-single hr, .subscribe-user-team hr {
   width: 18%;
 }
 
+
+/* PLAN */
 .plan-user p {
   line-height: 25px;
 }
@@ -104,13 +121,21 @@
   color: #0061FF;
 }
 
+.plan-user li {
+  padding: 6px 0;
+}
 
-/* MAIN - CONTENT 2 */
+/* /CONTENT 1 */
+
+
+/* CONTENT 2 */
 
 .content-2 {
   height: 350px;
 }
 
+
+/* FLOAT ENTERPRISE */
 .enterprise {
   width: 100%;
   border: 1px solid #D3D3D3;
@@ -120,6 +145,9 @@
   text-align: center;
   padding: 10px 0;
 }
+
+
+/* ENTERPRISE CONTACT */
 
 .enterprise-contact {
   border: 1px solid #D3D3D3;
@@ -150,8 +178,12 @@
   background-color: #3280FF
 }
 
+/* /CONTENT 2 */
 
-/* MAIN - CONTENT 3 */
+
+/* CONTENT 3 */
+
+/* PARTNER */
 
 .content-3-img {
   width: 50%;
@@ -185,12 +217,18 @@ color: #000000;
 padding: 10px 20px;
 }
 
+.content-3-text a:hover {
+  background-color: lightgray;
+}
 
-/* MAIN - CONTENT 4 */
+/* /CONTENT 3 */
+
+
+/* CONTENT 4 */
 
 .content-4 {
   padding-top: 100px;
-  min-height: 500px;
+  /* min-height: 500px; */
 }
 
 .content-4 h1 {
@@ -208,6 +246,8 @@ padding: 10px 20px;
   padding-right: 21px;
 }
 
+
+/* DESCRIPTION 1/2 */
 .content-4-img-1, .content-4-img-2, .content-4-img-3{
   width: 33%;
 }
@@ -224,12 +264,14 @@ padding: 10px 20px;
   width: 90%;
 }
 
+/* /CONTENT 4 */
 
-/* MAIN - CONTENT 5 */
+
+/*CONTENT 5 */
 
 .content-5 {
   padding-top: 100px;
-  min-height: 500px;
+  /* min-height: 500px; */
   height: 800px;
 }
 
@@ -243,6 +285,9 @@ padding: 10px 20px;
   font-size: 20px;
   padding-right: 21px;
 }
+
+
+/* DESCRIPTION 2/2 */
 
 .content-5-img-1, .content-5-img-2, .content-5-img-3{
   width: 33%;
@@ -260,110 +305,160 @@ padding: 10px 20px;
   width: 90%;
 }
 
+/* /CONTENT 5 */
 
-/* MAIN - CONTENT 6 */
 
-.content-6 {
-  height: 1250px;
+/* CONTENT 6 */ 
+
+.sponsors-title {
+  height: 170px;
 }
 
-.content-6 h1 {
+.sponsors-title h1 {
   font-size: 42px;
-  line-height: 50px;
-  padding-bottom: 35px;
+  padding-bottom: 40px;
 }
 
-.content-6 a {
-  font-weight: bold;
+.sponsors-title a {
   color: #0061FF;
 }
 
-.content-6 a:hover {
-  color: #3280FF;
+.sponsor {
+  padding-top: 30px;
+  height: 25vw;
 }
 
-.company-top {
-  padding-top: 50px;
+
+/* SPONSORS-CUBE LEFT */
+
+.company-left {
+  width: 25%;
+  height: 100%;
 }
 
-.company img {
-  width: 80%;
-  display: block;
-  margin: 0px auto;
+.company-left img {
+  width: 70%;
+  height: 100%;
+  margin: 0 15%;
+  filter: invert(1)
 }
 
-.n1 {
-  background-color: #a2d39b;
-  width: 300px;
-  height: 300px;
+.image-left-1 {
+  background-color: #A2D39B;
+  width: 50%;
+  height: 50%;
   float: left;
 }
 
-.n2 {
+.image-left-2 {
   background-color: #61082B;
-  width: 300px;
-  height: 300px;
+  width: 50%;
+  height: 50%;
   float: left;
 }
 
-.n3 {
-  background-color: #B4D0E7;
-  width: 300px;
-  height: 300px;
-  float: right
-}
-
-.n4 {
-  background-color: #D5001F;
-  width: 300px;
-  height: 300px;
-  float: right
-}
-
-.company-text {
-  background-color: #F5F5F5;
-  width: 703px;
-  height: 300px;
-  padding: 40px 40px;
-  float: left;
-}
-
-.company-text img {
-  width: 30%;
-}
-
-.company-text hr {
-  width: 20%;
-  margin: 40px 0;
-}
-
-.n5 {
+.image-left-3 {
   background-color: #0093CE;
-  width: 300px;
-  height: 300px;
+  width: 50%;
+  height: 50%;
   float: left;
 }
 
-.n6 {
+.image-left-4 {
   background-color: #FF1C1C;
-  width: 300px;
-  height: 300px;
+  width: 50%;
+  height: 50%;
   float: left;
 }
 
-.n7 {
-  background-color: #FFD830;
-  width: 300px;
-  height: 300px;
-  float: right;
+/* SPONSOR-CUBE CENTER */
+
+.company-center {
+  width: 50%;
+  height: 100%
 }
 
-.n8 {
-  background-color: #0093CE;
-  width: 300px;
-  height: 300px;
-  float: right;
+.image-center {
+  background-color: #F5F5F5;
+  width: 100%;
+  height: 100%;
+  padding: 20px 30px;
 }
+
+.image-center img {
+  width: 20%;
+}
+
+.image-center hr {
+  width: 7%;
+  margin: 35px 0;
+}
+
+.company-center p {
+  margin-bottom: 40px;
+  padding-right: 180px;
+  font-weight: bold;
+}
+
+.design-name {
+  font-weight: bold;
+}
+
+
+/* SPONSORS-CUBE RIGHT */
+
+.company-right {
+  width: 25%;
+  height: 100%;
+}
+
+.company-right img {
+  width: 70%;
+  height: 100%;
+  margin: 0 15%;
+  filter: invert(1)
+}
+
+.image-right-1 {
+  background-color: #D5001F;
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+.image-right-2 {
+  background-color: #B4D0E7;
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+.image-right-3 {
+  background-color: #0D2481;
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+.image-right-4 {
+  background-color: #FFD830;
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+#fixed {
+  width: 70%;
+  height: 15%;
+  margin: 43% 15%;
+  filter: invert(1);
+  vertical-align: middle;
+}
+  
+
+
+
+/* FREE TRIAL */
 
 .free-trial {
   background-color: #B4D0E7;
@@ -383,7 +478,7 @@ padding: 10px 20px;
   float: right;
 }
 
-.content-5 .button-trial {
+.button-trial {
   color: #000000;
   background-color: #ffffff;
   padding: 10px 40px;
@@ -391,8 +486,15 @@ padding: 10px 20px;
   text-align: center;
 }
 
+.button-trial:hover {
+  background-color: lightgrey;
+  border: 1px solid black;
+}
 
-/* MAIN - CONTENT 7 */
+/* /CONTENT 6 */
+
+
+/* CONTENT 7 */
 
 .content-7 {
   height: 650px;
@@ -408,3 +510,5 @@ padding: 50px 0;
 .content-7 i {
   float: right;
 }
+
+/* /CONTENT 7 */

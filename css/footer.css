@@ -8,7 +8,7 @@ footer {
 }
 
 
-/* FOOTER - CONTATS */
+/* SUBMENU 1 TO SUBMENU 5 */
 
 .submenu li a {
   text-decoration: none;
@@ -35,7 +35,7 @@ footer {
 }
 
 
-/* FOOTER - CREDITS */
+/* LANGUAGE */
 
 .footer-line {
   padding-top: 70px;
@@ -54,3 +54,5 @@ footer {
 .world-language {
   padding-top: 40px;
 }
+
+/* /FOOTER */
