@@ -14,10 +14,15 @@ header {
 
 .menu img {
   vertical-align: middle;
+  text-decoration: none;
 }
 
 .menu {
   text-align: center;
+}
+
+.logo-line {
+  text-decoration: none;
 }
 
 nav li {
@@ -35,7 +40,6 @@ nav ul li a:hover {
   border-bottom: 3px solid #000000;
   font-weight: bold;
   display: inline-block;
-  
 }
 
 .button {
@@ -50,7 +54,7 @@ nav ul li a:hover {
   background-color: #3280FF
 }
 
-/* BONUS MENU */
+
 
 /* JUMBOTRON */
 

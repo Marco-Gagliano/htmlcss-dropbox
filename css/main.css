@@ -1,7 +1,7 @@
-/* CONTENT 1 */
+/* MAIN - BILLING-SUBSCRIBE-PLAN */
 
 .content-1 {
-  height: 1350px;
+  height: 1400px;
   padding-top: 170px;
 }
 
@@ -32,15 +32,13 @@
 }
 
 .subscribe-user-single {
-  padding-left: 20px;
   border: 1px solid #D3D3D3;
-  padding-bottom: 170px;
+  padding: 10px 25px 208px 35px;
 }
 
 .subscribe-user-team {
-  padding-left: 20px;
   border: 1px solid #D3D3D3;
-  padding-bottom: 150px;
+  padding: 10px 25px 160px 35px;
 }
 
 .center {
@@ -62,6 +60,14 @@
 
 .subscribe-user-team h3 {
   padding-top: 10px;
+}
+
+.subscribe-user-single i {
+  margin-left: -20px;
+}
+
+.subscribe-user-team i {
+  margin-left: -20px;
 }
 
 .price {
@@ -119,16 +125,17 @@
 
 .plan-user i {
   color: #0061FF;
+  margin-left: -18px;
 }
 
 .plan-user li {
   padding: 6px 0;
 }
 
-/* /CONTENT 1 */
+/* MAIN - /BILLING-SUBSCRIBE-PLAN */
 
 
-/* CONTENT 2 */
+/* MAIN - ENTERPRISE */
 
 .content-2 {
   height: 350px;
@@ -178,10 +185,10 @@
   background-color: #3280FF
 }
 
-/* /CONTENT 2 */
+/* MAIN - /ENTERPRISE */
 
 
-/* CONTENT 3 */
+/* MAIN - PARTNER */
 
 /* PARTNER */
 
@@ -221,10 +228,10 @@ padding: 10px 20px;
   background-color: lightgray;
 }
 
-/* /CONTENT 3 */
+/* MAIN - /PARTNER */
 
 
-/* CONTENT 4 */
+/* MAIN - DESCRIPTION SITE 1/2 */
 
 .content-4 {
   padding-top: 100px;
@@ -242,7 +249,7 @@ padding: 10px 20px;
 
 .content-4 p {
   line-height: 20px;
-  font-size: 20px;
+  font-size: 18px;
   padding-right: 21px;
 }
 
@@ -264,10 +271,11 @@ padding: 10px 20px;
   width: 90%;
 }
 
-/* /CONTENT 4 */
+/* MAIN - /DESCRIPTION SITE 1/2 */
 
 
-/*CONTENT 5 */
+
+/* MAIN - DESCRIPTION SITE 2/2*/
 
 .content-5 {
   padding-top: 100px;
@@ -282,7 +290,7 @@ padding: 10px 20px;
 
 .content-5 p {
   line-height: 20px;
-  font-size: 20px;
+  font-size: 18px;
   padding-right: 21px;
 }
 
@@ -305,10 +313,10 @@ padding: 10px 20px;
   width: 90%;
 }
 
-/* /CONTENT 5 */
+/* MAIN - /DESCRIPTION SITE 2/2 */
 
 
-/* CONTENT 6 */ 
+/* MAIN - SPONSORS-FREE TRIAL */ 
 
 .sponsors-title {
   height: 170px;
@@ -329,6 +337,15 @@ padding: 10px 20px;
 }
 
 
+.frame {
+  border: 10px solid rgba(255, 255, 255, 0);
+}
+
+.frame:hover {
+  border: 10px solid rgba(255, 255, 255, 0.5);
+}
+
+
 /* SPONSORS-CUBE LEFT */
 
 .company-left {
@@ -342,6 +359,7 @@ padding: 10px 20px;
   margin: 0 15%;
   filter: invert(1)
 }
+
 
 .image-left-1 {
   background-color: #A2D39B;
@@ -457,8 +475,6 @@ padding: 10px 20px;
 }
   
 
-
-
 /* FREE TRIAL */
 
 .free-trial {
@@ -473,6 +489,7 @@ padding: 10px 20px;
 .free-trial h1 {
   float: left;
   color: #61082B;
+  font-size: 40px;
 }
 
 .free-trial a {
@@ -492,10 +509,10 @@ padding: 10px 20px;
   border: 1px solid black;
 }
 
-/* /CONTENT 6 */
+/* MAIN - /SPONSORS-FREE TRIAL */
 
 
-/* CONTENT 7 */
+/* MAIN - FAQ */
 
 .content-7 {
   height: 650px;
@@ -512,4 +529,4 @@ padding: 10px 20px;
   float: right;
 }
 
-/* /CONTENT 7 */
+/* /MAIN - FAQ */
