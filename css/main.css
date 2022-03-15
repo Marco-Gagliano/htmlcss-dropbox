@@ -383,6 +383,7 @@ padding: 10px 20px;
   width: 100%;
   height: 100%;
   padding: 20px 30px;
+  overflow: auto;
 }
 
 .image-center img {
@@ -500,7 +501,7 @@ padding: 10px 20px;
   height: 650px;
 }
 .content-7 h1 {
-padding: 50px 0;
+  padding: 50px 0;
 }
 
 .content-7 h3 {
